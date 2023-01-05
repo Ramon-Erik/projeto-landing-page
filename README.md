@@ -6,6 +6,6 @@ Neste projeto eu trago **minha maneira** de fazer as coisas acontecerem, diferen
 
 Exempos diso:
 
-- Na escolha de onde usar seletores e quais usar.
+- Na escolha de onde e quais seletores usar.
 - Unidades de medida mais responsivas nas fontes.
 - Fazer um código simples que possa ser visualizado em telas de diferentes tamanhos.
