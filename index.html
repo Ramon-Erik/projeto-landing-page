@@ -11,10 +11,17 @@
     <header>
         <img src="imagens/discord-logo.svg" alt="logo do aplicativo Discord">
         <nav>
-            <a href="#">Nossa Comunidade</a>
-            <a href="#">Tutorial</a>
-            <a href="#">Open Source</a>
-            <a href="#">Comandos</a> 
+            <div class="menu-hamburger" onclick="mostrarMenu()">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Nossa Comunidade</a></li>
+                <li><a href="#">Tutorial</a></li>
+                <li><a href="#">Open Source</a></li>
+                <li><a href="#">Comandos</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -40,5 +47,8 @@
     <footer>
         <p><a href="https://github.com/Ramon-Erik" target="_blank">&copy; Ramon Erik</a></p>
     </footer>
+    <script>
+        function mostrarMenu()
+    </script>
 </body>
 </html>
