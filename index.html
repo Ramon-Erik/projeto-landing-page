@@ -7,7 +7,7 @@
     <title>Balle Bot - Modere sua comunidade no Discord</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onresize="mudarTamanho()">
     <header>
         <img src="imagens/discord-logo.svg" alt="logo do aplicativo Discord">
         <nav>
@@ -48,7 +48,22 @@
         <p><a href="https://github.com/Ramon-Erik" target="_blank">&copy; Ramon Erik</a></p>
     </footer>
     <script>
-        function mostrarMenu()
+        let nav = document.getElementsByClassName('nav-list')[0]
+        function mostrarMenu() {
+            if (nav.style.display == 'none' || nav.style.display == '') {
+                nav.style.display = 'flex'
+            } else {
+                console.log('a')
+                nav.style.display = 'none'
+            }
+        }
+        function mudarTamanho() {
+            if (window.innerWidth >= 768) {
+                nav.style.display = 'flex'
+            } else {
+                nav.style.display = 'none'
+            }
+        }
     </script>
 </body>
 </html>
